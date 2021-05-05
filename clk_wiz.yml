@@ -1,0 +1,5 @@
+
+sources:
+    - ${ip_name}/${ip_name}/${ip_name}.v 
+    - ${ip_name}/${ip_name}/${ip_name}_clk_wiz.v
+

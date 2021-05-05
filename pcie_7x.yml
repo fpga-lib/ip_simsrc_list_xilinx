@@ -1,0 +1,42 @@
+
+
+sources:
+    - ${ip_name}/source/${ip_name}_pipe_eq.v
+    - ${ip_name}/source/${ip_name}_pipe_drp.v
+    - ${ip_name}/source/${ip_name}_pipe_rate.v
+    - ${ip_name}/source/${ip_name}_pipe_reset.v
+    - ${ip_name}/source/${ip_name}_pipe_sync.v
+    - ${ip_name}/source/${ip_name}_gtp_pipe_rate.v
+    - ${ip_name}/source/${ip_name}_gtp_pipe_drp.v
+    - ${ip_name}/source/${ip_name}_gtp_pipe_reset.v
+    - ${ip_name}/source/${ip_name}_pipe_user.v
+    - ${ip_name}/source/${ip_name}_pipe_wrapper.v
+    - ${ip_name}/source/${ip_name}_qpll_drp.v
+    - ${ip_name}/source/${ip_name}_qpll_reset.v
+    - ${ip_name}/source/${ip_name}_qpll_wrapper.v
+    - ${ip_name}/source/${ip_name}_rxeq_scan.v
+    - ${ip_name}/source/${ip_name}_pcie_top.v
+    - ${ip_name}/source/${ip_name}_core_top.v
+    - ${ip_name}/source/${ip_name}_axi_basic_rx_null_gen.v
+    - ${ip_name}/source/${ip_name}_axi_basic_rx_pipeline.v
+    - ${ip_name}/source/${ip_name}_axi_basic_rx.v
+    - ${ip_name}/source/${ip_name}_axi_basic_top.v
+    - ${ip_name}/source/${ip_name}_axi_basic_tx_pipeline.v
+    - ${ip_name}/source/${ip_name}_axi_basic_tx_thrtl_ctl.v
+    - ${ip_name}/source/${ip_name}_axi_basic_tx.v
+    - ${ip_name}/source/${ip_name}_pcie_7x.v
+    - ${ip_name}/source/${ip_name}_pcie_bram_7x.v
+    - ${ip_name}/source/${ip_name}_pcie_bram_top_7x.v
+    - ${ip_name}/source/${ip_name}_pcie_brams_7x.v
+    - ${ip_name}/source/${ip_name}_pcie_pipe_lane.v
+    - ${ip_name}/source/${ip_name}_pcie_pipe_misc.v
+    - ${ip_name}/source/${ip_name}_pcie_pipe_pipeline.v
+    - ${ip_name}/source/${ip_name}_gt_top.v
+    - ${ip_name}/source/${ip_name}_gt_common.v
+    - ${ip_name}/source/${ip_name}_gtp_cpllpd_ovrd.v
+    - ${ip_name}/source/${ip_name}_gtx_cpllpd_ovrd.v
+    - ${ip_name}/source/${ip_name}_gt_rx_valid_filter_7x.v
+    - ${ip_name}/source/${ip_name}_gt_wrapper.v
+    - ${ip_name}/source/${ip_name}_pcie2_top.v
+    - ${ip_name}/sim/${ip_name}.v
+
