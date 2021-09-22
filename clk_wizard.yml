@@ -1,0 +1,6 @@
+
+sources:
+    - ${ip_name}/${ip_name}/sim/${ip_name}.v 
+    - ${ip_name}/${ip_name}/${ip_name}_clk_wiz_top.v
+    - ${ip_name}/${ip_name}/${ip_name}_clocking_structure.v
+
